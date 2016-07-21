@@ -53,3 +53,11 @@
    To populate your app with custom events for advanced tracking, you need to call the method:
    
    `Nestlean.event("event_name");`
+
+   You may know even more about your app with adding custom parameters to the event:
+   
+   ```
+   HashMap<String, String> data = new HashMap<>();
+   data.put("key", "value");
+   Nestlean.event("event_name", data);
+   ```
