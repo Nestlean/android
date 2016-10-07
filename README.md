@@ -1,4 +1,4 @@
-# Nestlean SDK v1.1.0  
+# Nestlean SDK v1.2.2  
 
 ## Android Integration
 
